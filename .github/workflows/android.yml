@@ -37,8 +37,8 @@ jobs:
       - name: Install Android SDK
         run: sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
-        - name: Update Capacitor Android
-          run: npx cap update android
+        - name: Sync Capacitor Android
+          run: npx cap sync android
       - name: Build APK
         run: |
           cd android
