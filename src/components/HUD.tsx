@@ -138,7 +138,7 @@ export const HUD: React.FC<HUDProps> = ({
       </div>
 
       {/* Middle/Bottom: Overdrive Charge Bar */}
-      <div className="flex flex-col items-center gap-1.5 px-4 mb-2">
+      <div className="flex flex-col items-center gap-1.5 px-4 fixed bottom-24 left-0 right-0 z-20">
         <div className="w-full max-w-md flex items-center gap-2 bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-xl border border-slate-700/60 shadow-lg">
           <Sparkles
             className={`h-4 w-4 transition-all duration-300 ${
